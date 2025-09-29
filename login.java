@@ -19,7 +19,7 @@ public class login extends JFrame  implements ActionListener {
         setSize(850,480);
         setUndecorated(true);
         setLocation(350,250);
-        ImageIcon icon1 = new ImageIcon(ClassLoader.getSystemResource("icon/bank.png"));
+        ImageIcon icon1 = new ImageIcon(ClassLoader.getSystemResource("bank.png"));
         Image icon2 = icon1.getImage().getScaledInstance(100, 100, Image.SCALE_DEFAULT);
         ImageIcon icon3 = new ImageIcon(icon2);
         JLabel image = new JLabel(icon3);
